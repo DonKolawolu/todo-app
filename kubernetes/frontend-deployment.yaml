@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: your-frontend-image:latest
+        image: donkolawolu/frontendimage
