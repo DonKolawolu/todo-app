@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend-container
-        image: donkolawolu/todo-app:backendimage
+        image: donkolawolu/backend
         imagePullPolicy: Always
         ports:
         - containerPort: 3000

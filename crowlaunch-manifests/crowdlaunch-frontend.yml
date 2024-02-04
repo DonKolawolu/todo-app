@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: crowdlaunch
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: cd-frontend
   template:
     metadata:
       labels:
-        app: frontend
+        app: cd-frontend
     spec:
       containers:
-      - name: frontend-container
-        image: donkolawolu/frontendimage:2
+      - name: cdfrontend-container
+        image: donkolawolu/task-login-image
+       
     
          
